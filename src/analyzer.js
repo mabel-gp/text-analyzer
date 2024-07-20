@@ -5,6 +5,7 @@ const analyzer = {
   },
 
   getCharacterCount: (text) => {
+    return text.length;
     //TODO: esta función debe retornar el recuento de caracteres que se encuentran en el parámetro `text` de tipo `string`.
   },
 
@@ -26,4 +27,3 @@ const analyzer = {
 };
 
 export default analyzer;
-//Pone los datos a disposición de index.js

@@ -8,7 +8,6 @@ header{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #333333;
     list-style-type: none;
-    /* background-color: #5D5F63; */
 }
 
 textarea[name="user-input"]{
