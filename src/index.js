@@ -30,3 +30,14 @@ textArea.addEventListener("input",mostrarContadorCaracteresSin);
 function mostrarContadorCaracteresSin(){
   contadorCaracteresSin.innerHTML = 'Caracteres sin espacios: '+analyzer.getCharacterCountExcludingSpaces(textArea.value);
 }
+
+// Métrica| longitud-promedio
+
+const longitudPromedio = document.querySelector('[data-testid="word-length-average"]');
+textArea.addEventListener("input", mostrarLongitudPromedio);
+
+function mostrarLongitudPromedio(){
+  longitudPromedio.innerHTML = 'Longitud promedio: '+analyzer.getAverageWordLength(textArea.value);
+}
+
+

@@ -17,16 +17,19 @@ const analyzer = {
     }
   },
 
-  getAverageWordLength: (text) => {    
-  
+  getAverageWordLength: (text) => { 
+    const totalCaracteres = text.replace(/[^a-zA-Z.,]/g,'').length;
+    const cantidadPalabras = text.trim().split(' ').length;
+    const longitudPromedio = totalCaracteres/cantidadPalabras;
+    return parseFloat(longitudPromedio.toFixed(2));
   },
 
   getNumberCount: (text) => {
-
+    return text;
   },
 
   getNumberSum: (text) => {
-    
+    return text;
   },
 };
 
