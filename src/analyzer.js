@@ -25,11 +25,11 @@ const analyzer = {
   },
 
   getNumberCount: (text) => {
-    return text;
+    return text; //EN CONSTRUCCIÓN
   },
 
   getNumberSum: (text) => {
-    return text;
+    return text; //EN CONSTRUCCIÓN
   },
 };
 

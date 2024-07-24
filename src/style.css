@@ -12,7 +12,7 @@ main{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #333333;
     list-style-type: none;
-    width: 300px ;
+    width: 250px ;
     height: 30px;
     margin-top: 5px;
 }
@@ -28,12 +28,22 @@ textarea[name="user-input"]{
     margin-right: 50px;
 }
 
+#reset-button{
+    background-color: #5D5F63;
+    color: beige;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 8px;
+    margin-left: 650px;
+    margin-top: 30px;
+    }
+
 footer{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: italic;
     color: #5D5F63;
     font-size: 15px;
-    margin-top: 35px;
+    margin-top: 25px;
     margin-left: 40px;
 }
 
