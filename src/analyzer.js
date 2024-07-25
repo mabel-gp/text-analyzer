@@ -1,3 +1,4 @@
+/* eslint-disable no-inner-declarations */
 const analyzer = {  
 
   getWordCount: (text) => {
@@ -34,7 +35,17 @@ const analyzer = {
   },
  
   getNumberSum: (text) => {
-    return text;
+    const soloNumeros = text.match(/\b[\d.]+\b/g);
+    let suma = 0;
+
+    if(soloNumeros === null){
+      return suma;
+    }
+
+    for(const i of soloNumeros){
+      suma = suma + parseFloat(i);
+    }
+    return suma;
   },
 };
 

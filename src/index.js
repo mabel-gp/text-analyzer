@@ -13,7 +13,6 @@ const sumaNumeros = document.querySelector('[data-testid="number-sum"]');
 // MÉTRICA| conteo-de-palabras
 
 textArea.addEventListener("input", resultadoContadorPalabras);
-
 function  resultadoContadorPalabras(){
   contadorPalabras.innerHTML = 'Palabras: '+analyzer.getWordCount(textArea.value);
 }
@@ -22,7 +21,6 @@ function  resultadoContadorPalabras(){
 // MÉTRICA| conteo-de-caracteres
 
 textArea.addEventListener("input", mostrarContadorCaracteres);
-
 function mostrarContadorCaracteres(){
   contadorCaracteres.innerHTML = 'Caracteres: '+analyzer.getCharacterCount(textArea.value);
 }
@@ -31,7 +29,6 @@ function mostrarContadorCaracteres(){
 // MÉTRICA| conteo-de-caracteres-sin-espacios
 
 textArea.addEventListener("input",mostrarContadorCaracteresSin);
-
 function mostrarContadorCaracteresSin(){
   contadorCaracteresSin.innerHTML = 'Caracteres sin espacios: '+analyzer.getCharacterCountExcludingSpaces(textArea.value);
 }
@@ -40,7 +37,6 @@ function mostrarContadorCaracteresSin(){
 // MÉTRICA| longitud-promedio
 
 textArea.addEventListener("input", mostrarLongitudPromedio);
-
 function mostrarLongitudPromedio(){
   longitudPromedio.innerHTML = 'Longitud promedio: '+analyzer.getAverageWordLength(textArea.value);
 }
@@ -49,7 +45,6 @@ function mostrarLongitudPromedio(){
 //MÉTRICA| números
 
 textArea.addEventListener("input",mostrarContadorNumeros);
-
 function mostrarContadorNumeros(){
   contadorNumeros.innerHTML = 'Números: '+analyzer.getNumberCount(textArea.value);
 }
@@ -58,7 +53,6 @@ function mostrarContadorNumeros(){
 //MÉTRICA| suma-de-números
 
 textArea.addEventListener("input",mostrarSumaNumeros);
-
 function mostrarSumaNumeros(){
   sumaNumeros.innerHTML = 'Suma de Números: '+analyzer.getNumberSum(textArea.value);
 }
