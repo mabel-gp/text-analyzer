@@ -2,10 +2,16 @@ import analyzer from './analyzer.js';
 
 
 const textArea = document.querySelector('[name="user-input"]');
+const contadorPalabras = document.querySelector('[data-testid="word-count"]');
+const contadorCaracteres = document.querySelector('[data-testid="character-count"]');
+const contadorCaracteresSin = document.querySelector('[data-testid="character-no-spaces-count"]');
+const longitudPromedio = document.querySelector('[data-testid="word-length-average"]');
+const contadorNumeros = document.querySelector('[data-testid="number-count"]');
+const sumaNumeros = document.querySelector('[data-testid="number-sum"]');
+
 
 // MÉTRICA| conteo-de-palabras
 
-const contadorPalabras = document.querySelector('[data-testid="word-count"]');
 textArea.addEventListener("input", resultadoContadorPalabras);
 
 function  resultadoContadorPalabras(){
@@ -15,7 +21,6 @@ function  resultadoContadorPalabras(){
 
 // MÉTRICA| conteo-de-caracteres
 
-const contadorCaracteres = document.querySelector('[data-testid="character-count"]');
 textArea.addEventListener("input", mostrarContadorCaracteres);
 
 function mostrarContadorCaracteres(){
@@ -25,7 +30,6 @@ function mostrarContadorCaracteres(){
 
 // MÉTRICA| conteo-de-caracteres-sin-espacios
 
-const contadorCaracteresSin = document.querySelector('[data-testid="character-no-spaces-count"]');
 textArea.addEventListener("input",mostrarContadorCaracteresSin);
 
 function mostrarContadorCaracteresSin(){
@@ -35,7 +39,6 @@ function mostrarContadorCaracteresSin(){
 
 // MÉTRICA| longitud-promedio
 
-const longitudPromedio = document.querySelector('[data-testid="word-length-average"]');
 textArea.addEventListener("input", mostrarLongitudPromedio);
 
 function mostrarLongitudPromedio(){
@@ -45,7 +48,6 @@ function mostrarLongitudPromedio(){
 
 //MÉTRICA| números
 
-const contadorNumeros = document.querySelector('[data-testid="number-count"]');
 textArea.addEventListener("input",mostrarContadorNumeros);
 
 function mostrarContadorNumeros(){
@@ -55,7 +57,6 @@ function mostrarContadorNumeros(){
 
 //MÉTRICA| suma-de-números
 
-const sumaNumeros = document.querySelector('[data-testid="number-sum"]');
 textArea.addEventListener("input",mostrarSumaNumeros);
 
 function mostrarSumaNumeros(){

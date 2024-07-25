@@ -25,11 +25,16 @@ const analyzer = {
   },
 
   getNumberCount: (text) => {
-    return text; //EN CONSTRUCCIÓN
+    const numeros = text.match(/\b[\d.]+\b/g);
+    if (numeros){
+      return numeros.length;
+    }else{
+      return 0;
+    }
   },
-
+ 
   getNumberSum: (text) => {
-    return text; //EN CONSTRUCCIÓN
+    return text;
   },
 };
 
