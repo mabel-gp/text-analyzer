@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Analizador de texto</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+<header>
+  <h1>Analizador de Texto</h1>
+</header>
+
+<main>
+
+  <ul>
+    <li class="indicator" data-testid="word-count">Palabras: 0</li>
+    <li class="indicator" data-testid="character-count">Caracteres: 0</li>
+    <li class="indicator" data-testid="character-no-spaces-count">Caracteres sin espacios: 0</li>
+    <li class="indicator" data-testid="word-length-average">Longitud promedio: 0</li>
+    <li class="indicator" data-testid="number-count">Números: 0</li>
+    <li class="indicator" data-testid="number-sum">Suma de Números: 0</li>
+  </ul>
+  
+  <textarea name="user-input" placeholder="¡Hola! ¡Bienvenida! Escribe tu texto aquí."></textarea>
+
+</main>
+
+<button id="reset-button">Restaurar</button>
+
+<footer>
+  <p>Desarrollado por Mabel Gutierrez Peña</p>
+</footer>
+
+<script src="index.js" type="module"></script>
+<!-- type="module" indica que utilizaremos módulos -->
+</body>
+</html>
