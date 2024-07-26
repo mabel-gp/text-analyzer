@@ -1,11 +1,10 @@
 # ANALIZADOR DE TEXTO
----
+
 
 ## 1. Introducción
 
 <p>El analizador de texto esta diseñado para ser una herramienta valiosa que extrae información significativa, facilitando la toma de decisiones basadas en el contenido. En este proyecto se muestran seis indicadores: palabras, caracteres, caracteres sin espacios, longitud promedio, números y suma de números; cuya funcionalidad se detalla más adelante.</p>
 
----
 
 ## 2. Funcionalidades
 
@@ -30,7 +29,6 @@
 
 <p>Este elemento restablece las métricas a su estado original, permitiendo así la inclusión inmediata de otro texto.</p>
 
----
 
 ## 3. Instrucciones de Uso
 
@@ -39,7 +37,6 @@
 * Mientras realiza el paso anterior, visualizará la actualización de las métricas en tiempo real al lado izquierdo.
 * Luego puede hacer uso del botón restaurar, para limpiar los indicadores.
 
----
 
 ## 4. Desarrollo 
 
@@ -64,7 +61,6 @@
 <p>Este analizador también incluye manejo de eventos de DOM como "input" que actualiza las métricas cuando se escribe en el cuadro de texto, y el evento "click" para restaturar los indicadores.</p>
 <p>Asi mismo se hace uso de selectores del DOM como querySelector y getElementById, se incluye la propiedad innerHTML para incorporar los datos ejecutados por los métodos sobre las métricas. </p>
 
----
 
 ## 5. Diseño
 

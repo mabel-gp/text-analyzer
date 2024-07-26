@@ -70,6 +70,6 @@ function restaurarMetricas(){
   longitudPromedio.innerHTML = 'Longitud promedio: '+0;
   contadorNumeros.innerHTML = 'Números: '+0;
   sumaNumeros.innerHTML = 'Suma de Números: '+0;
-  textArea.value = " ";
+  textArea.value = '';
 }
 

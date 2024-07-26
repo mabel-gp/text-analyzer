@@ -1,6 +1,10 @@
+body{
+    background-color:#F2E3DE;
+}
+
 header{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #333333;
+    color: #51423B;
     margin: 5% 35%;  /* vertical,horizontal */
 }
 
@@ -8,18 +12,31 @@ main{
     display: flex;
 }
 
+ul li{
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    padding-top: 20px;
+    border: 2px solid;
+    border-color: #FBFBFB;
+}
+
 .indicator{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #333333;
+    background-color: #C99D8E;
+    color: #ffffff;
     list-style-type: none;
     width: 250px ;
     height: 30px;
     margin-top: 5px;
+    padding-top: 5px;
+    padding-left: 5px;
 }
 
 textarea[name="user-input"]{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     border-radius: 10px;
+    background-color: ;
     border-color: #333333 ;
     width: 800px;
     height: 300px;
@@ -29,7 +46,10 @@ textarea[name="user-input"]{
 }
 
 #reset-button{
-    background-color: #5D5F63;
+    background-color: #70805D;
+    border-color: #70805D;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
     color: beige;
     border-radius: 5px;
     cursor: pointer;
