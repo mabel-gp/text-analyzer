@@ -64,12 +64,12 @@ const restaurar = document.getElementById("reset-button");
 restaurar.addEventListener("click",restaurarMetricas);
 
 function restaurarMetricas(){
-  contadorPalabras.innerHTML ='Palabras: '+0;
-  contadorCaracteres.innerHTML = 'Caracteres: '+0;
-  contadorCaracteresSin.innerHTML ='Caracteres sin espacios: '+0;
-  longitudPromedio.innerHTML = 'Longitud promedio: '+0;
-  contadorNumeros.innerHTML = 'Números: '+0;
-  sumaNumeros.innerHTML = 'Suma de Números: '+0;
+  contadorPalabras.innerHTML ='Palabras: 0';
+  contadorCaracteres.innerHTML = 'Caracteres: 0';
+  contadorCaracteresSin.innerHTML ='Caracteres sin espacios: 0';
+  longitudPromedio.innerHTML = 'Longitud promedio: 0';
+  contadorNumeros.innerHTML = 'Números: 0';
+  sumaNumeros.innerHTML = 'Suma de Números: 0';
   textArea.value = '';
 }
 
