@@ -5,7 +5,7 @@ body{
 header{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #51423B;
-    margin: 5% 35%;  /* vertical,horizontal */
+    margin: 5% 35%;  
 }
 
 main{
@@ -35,9 +35,10 @@ ul li{
 
 textarea[name="user-input"]{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #333333;
     border-radius: 10px;
-    background-color: #FBFBFB;
-    border-color: #333333 ;
+    background-color: #FBFCFE;
+    border-color: #51423B ;
     width: 800px;
     height: 300px;
     margin-top: 15px;

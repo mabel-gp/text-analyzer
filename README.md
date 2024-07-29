@@ -32,10 +32,10 @@
 
 ## 3. Instrucciones de Uso
 
-* Diríjase a esta dirección en GitHub Pages donde se aloja este sitio:
-* Una vez ahí seleccione la caja de texto y escriba el contenido que desee.
-* Mientras realiza el paso anterior, visualizará la actualización de las métricas en tiempo real al lado izquierdo.
-* Luego puede hacer uso del botón restaurar, para limpiar los indicadores.
+* Dirígete a esta [dirección](https://mabel-gp.github.io/text-analyzer/).
+* Una vez ahí selecciona la caja de texto y escribe el contenido que desees.
+* Mientras realizas el paso anterior, visualizarás la actualización de las métricas en tiempo real al lado izquierdo.
+* Luego puedes hacer uso del botón restaurar, para limpiar los indicadores.
 
 
 ## 4. Desarrollo 

@@ -1,4 +1,4 @@
-/* eslint-disable no-inner-declarations */
+
 const analyzer = {  
 
   getWordCount: (text) => {
@@ -38,14 +38,21 @@ const analyzer = {
     const soloNumeros = text.match(/\b[\d.]+\b/g);
     let suma = 0;
 
-    if(soloNumeros === null){
-      return suma;
-    }
-
-    for(const i of soloNumeros){
-      suma = suma + parseFloat(i);
+    if (soloNumeros){
+      for( let i=0; i<soloNumeros.length; i++){
+        suma = suma + parseFloat(soloNumeros[i]);
+      }
     }
     return suma;
+
+    // if(soloNumeros === null){
+    //   return suma;
+    // }
+
+    // for(const i of soloNumeros){
+    //   suma = suma + parseFloat(i);
+    // }
+    // return suma;
   },
 };
 
